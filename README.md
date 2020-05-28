@@ -9,6 +9,7 @@ To use add the `json2bv` to your PATH or copy the file on the `lib` directory of
 The command generate the models from the `.json` file and inside a models folder
 
 To Generate run the command
+
 ```
 $ ./json2bv [JSON File] [Top Level Class Name]
 ```
@@ -19,13 +20,26 @@ if the json file name is `input.json` and the desired model name is `Link Inform
 ```
 ./json2bv input.json "Link Information"
 ```
+
 the base classes will be generated after that you should adjust your missing imports (if more than one class generated "nested objects") and run
+
 ```
 flutter pub run build_runner build
 ```
+
 to generate the part files `.g.dart`
+
+Build by running
+
+```
+pub get
+```
+
+then
+
+```
+dart2native bin/main.dart -o bin/json2bv
+```
 
 Notice:
 This is still a work on progress and based on the https://charafau.github.io/json2builtvalue/ by charafau
-
-For now Go to `Releases` to download - Source Code will be added up later
