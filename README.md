@@ -21,7 +21,7 @@ if the json file name is `input.json` and the desired model name is `Link Inform
 ```
 ./json2bv input.json "Link Information"
 ```
-which will creates
+which will create
 ```
 .
 ├── lib
