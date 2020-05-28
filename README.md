@@ -1,8 +1,10 @@
 # json2bv
 
-A JSON To built_value CLI Classes Generator 
+A JSON To built_value CLI Classes Generator
+It generates the models from a `.json` file and a serializer file to use
+you need to install the `built_value` package to your app from https://pub.dev/packages/built_value
 
-To use add the `json2bv` to your PATH or copy the file on the `lib` directory of your flutter app along with the `.json` file you want to model
+To use add the `json2bv` to your PATH or copy the file on the `lib` directory of your flutter/dart app along with the `.json` file you want to model/serialize
 
 The command generate the models from the `.json` file and inside a models folder
 
