@@ -8,7 +8,7 @@ The command generate the models from the `.json` file and inside a models folder
 
 To Generate run the command
 ```
-$ ./json2bv [JSON File] [TopLevel ClassName]
+$ ./json2bv [JSON File] [Top Level Class Name]
 ```
 
 Example:
