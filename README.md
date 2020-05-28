@@ -28,3 +28,4 @@ to generate the part files `.g.dart`
 Notice:
 This is still a work on progress and based on the https://charafau.github.io/json2builtvalue/ by charafau
 
+For now Go to `Releases` to download - Source Code will be added up later
