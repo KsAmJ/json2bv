@@ -1,14 +1,15 @@
 # json2bv
 
 A JSON To built_value CLI Classes Generator
-It generates the models from a `.json` file and a serializer file to use
-you need to install the `built_value` package to your app from https://pub.dev/packages/built_value
+It generates the models from a `.json` file and a serializer file.
+
+(you need to install the `built_value` and `built_runner`packages to your app `pubspec.yaml` from https://pub.dev/ )
 
 To use add the `json2bv` to your PATH or copy the file on the `lib` directory of your flutter/dart app along with the `.json` file you want to model/serialize
 
-The command generate the models from the `.json` file and inside a models folder
+The command generates the models from the `.json` file and inside a models folder
 
-To Generate run the command
+To Generate run:
 
 ```
 $ ./json2bv [JSON File] [Top Level Class Name]
@@ -29,7 +30,7 @@ flutter pub run build_runner build
 
 to generate the part files `.g.dart`
 
-Build by running
+To Build run:
 
 ```
 pub get
